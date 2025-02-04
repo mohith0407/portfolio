@@ -72,18 +72,18 @@ export const DATA = {
       description:
         "A research project addresses the issues by proposing a novel hybrid task allocation algorithm that combines the strengths of the Artificial Bee Colony (ABC) algorithm with Particle Swarm Optimization (PSO).",
     },
-    {
-      company: "APSSDC Summer Intern",
-      href: "http://engineering.apssdc.in/",
-      badges: [],
-      location: "Remote",
-      title: "MERN PROJECT",
-      logoUrl: "/apssdc.webp",
-      start: "May 2023",
-      end: "Jul 2023",
-      description:
-        "During my APSSDC Summer Internship, I gained hands-on experience in MERN (MongoDB, Express.js, React, Node.js) stack and developed a Learning Management System (LMS). This platform enables users to manage courses, track progress, and enhance the online learning experience.",
-    },
+    // {
+    //   company: "APSSDC Summer Intern",
+    //   href: "http://engineering.apssdc.in/",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "MERN PROJECT",
+    //   logoUrl: "/apssdc.webp",
+    //   start: "May 2023",
+    //   end: "Jul 2023",
+    //   description:
+    //     "During my APSSDC Summer Internship, I gained hands-on experience in MERN (MongoDB, Express.js, React, Node.js) stack and developed a Learning Management System (LMS). This platform enables users to manage courses, track progress, and enhance the online learning experience.",
+    // },
     {
       company: "Chegg Expert(Freelancing)",
       badges: [],
