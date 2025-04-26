@@ -14,12 +14,16 @@ export const DATA = {
   avatarUrl: "/me2.jpg",
   skills: [
     "C++",
+    "C",
+    "SQL",
     "React",
     "Next.js",
     "Javascript",
-    "Typescript",
     "Node.js",
-    "c"
+    "Express",
+    "Kafka",
+    "Redis",
+    "PostgreSQL",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" }
@@ -61,14 +65,14 @@ export const DATA = {
 
   work: [
     {
-      company: "Research Project Intern",
+      company: "Summer Intern",
       href: "https://ieeexplore.ieee.org/abstract/document/10723675",
       badges: [],
       location: "SRMAP University",
       title: "Cloud Project",
       logoUrl: "/idp.png",
-      start: "Jan 2024",
-      end: "May 2024",
+      start: "Aug 2024",
+      end: "Dec 2024",
       description:
         "A research project addresses the issues by proposing a novel hybrid task allocation algorithm that combines the strengths of the Artificial Bee Colony (ABC) algorithm with Particle Swarm Optimization (PSO).",
     },
@@ -128,7 +132,7 @@ export const DATA = {
     {
       title: "Doctor Appointment App (Using azure computing) ",
       href: "",
-      dates: "Oct 2024 - Dec 2024",
+      dates: "",
       active: false,
       description:
         "Designed and developed a web-based doctor appointment booking application using React for the front end and Node.js for the back end. Implemented Azure serverless computing to efficiently store and manage data using Azure Functions and Azure DB.",
@@ -153,7 +157,7 @@ export const DATA = {
     {
       title: "LMS platform",
       href: "",
-      dates: "Jan 2024 - March 2024",
+      dates: "",
       active: true,
       description:
         "Developed a comprehensive LMS platform using React for an interactive user interface and Node.js for back-end logic and API development. Utilized MongoDB to store and manage course data, user profiles, and progress tracking for seamless data retrieval and storage.",
@@ -176,49 +180,52 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Class Managment System",
+      title: "ChaUpp Application",
       href: "",
-      dates: "Nov 2022 - Dec 2022",
+      dates: "",
+      active: true,
+      description:
+        "A scalable socket real-time application using Redis, Kafka, and PostgreSQL on Aiven cloud. Used TurboRepo for a single page application",
+      technologies: [
+        "NextJs",
+        "NodeJs",
+        "Kafka",
+        "SockectIO",
+        "PostgreSQL",
+        "Reddis"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/mohith0407/ChatUpp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/p4.svg",
+      video: "",
+    },
+    {
+      title: "Class Management System",
+      href: "",
+      dates: "",
       active: true,
       description:
         "Developed a Classroom Management using C++ to identify and reserve available classrooms for teachers. Leveraged file handling techniques to store and manage data locally, ensuring reliable and efficient data storage without external databases.",
       technologies: [
         "C++",
-        "Cpp File Handling",
+        "Cpp File Handling"
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/mohith0407/srm-class-rooms-lab-management/tree/main",
+          href: "https://github.com/mohith0407/srm-class-rooms-lab-management",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/p1.svg",
       video: "",
     },
-    {
-      title: "Maximizing Resource Utilization Using Hybrid Cloud-based Task Allocation Algorithm",
-      href: "https://ieeexplore.ieee.org/abstract/document/10723675",
-      dates: "Feb 2024 - Jul 2024",
-      active: true,
-      description:
-        "This is a research project, a hybrid algorithm combining the Artificial Bee Colony (ABC) and Particle Swarm Optimization (PSO) techniques to improve task allocation in cloud computing environments. The empirical results demonstrated that our hybrid approach offers a marginal improvement in resource utilization accuracy, as indicated by the fitness score, when compared to traditional ABC and PSO algorithms.",
-      technologies: [
-        "Research Project",
-        "Python",
-        "Jupyter NoteBook"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ieeexplore.ieee.org/abstract/document/10723675",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/p4.webp",
-      video:
-        "",
-    },
+    
   ],
   
 } as const;
