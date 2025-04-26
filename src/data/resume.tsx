@@ -180,7 +180,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "ChaUpp Application",
+      title: "ChatUpp Application",
       href: "",
       dates: "",
       active: true,
